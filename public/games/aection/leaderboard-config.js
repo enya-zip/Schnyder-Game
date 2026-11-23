@@ -5,5 +5,5 @@
 // Solange beide leer sind, zeigt das Spiel "Rangliste noch nicht verbunden".
 export const LEADERBOARD = Object.freeze({
   url: "https://ejglpgxphigohqmnplcz.supabase.co",
-  key: ""
+  key: "sb_publishable_TR136w9a-lzPnCut2Xsq7A_j1jMphvC"
 });
