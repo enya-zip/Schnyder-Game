@@ -5,6 +5,7 @@ import { chooseLanguage, loadDictionaries, livesLabel } from "./localization.js"
 import { drawWallisCity } from "./scenery.js";
 import { setup, validateAction, applyAction, viewFor } from "./logic.js";
 import { GameView } from "./game-view.js";
+import { setupLeaderboard } from "./leaderboard.js";
 
 const $ = id => document.getElementById(id);
 const params = new URLSearchParams(location.search);
@@ -140,6 +141,7 @@ function startRun() {
   document.querySelectorAll("dialog[open]").forEach(d => d.close());
   seed = crypto.getRandomValues(new Uint32Array(1))[0].toString(36);
   lifeReward.clear();
+  leaderboard.reset();
   state = setup([seed]); ended = false; lastEvent = -1; lastHud = -1;
   accumulator = 0; lastFrame = performance.now(); countdown = 0;
   document.body.classList.add("playing");
@@ -184,6 +186,7 @@ $("pause-dialog").addEventListener("cancel", e => { e.preventDefault(); resume()
 $("result-dialog").addEventListener("cancel", e => e.preventDefault());
 $("start").addEventListener("click", startRun);
 $("again").addEventListener("click", startRun);
+const leaderboard = setupLeaderboard({ $, words, readStore, writeStore, getRun: () => state, onPlayAgain: startRun });
 $("sound").addEventListener("click", toggleSound);
 $("pause-sound").addEventListener("click", toggleSound);
 $("arena-sound").addEventListener("click", toggleSound);
