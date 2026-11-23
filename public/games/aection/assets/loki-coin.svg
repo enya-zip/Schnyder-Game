@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<defs>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff5b4"/><stop offset=".35" stop-color="#ffd44b"/><stop offset=".65" stop-color="#d99112"/><stop offset="1" stop-color="#fff29c"/></linearGradient>
+<linearGradient id="face" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#fff4bc"/><stop offset=".55" stop-color="#eab83e"/><stop offset="1" stop-color="#b97b12"/></linearGradient>
+<radialGradient id="centre"><stop stop-color="#ffe784"/><stop offset="1" stop-color="#e2a521"/></radialGradient>
+</defs>
+<circle cx="50" cy="52" r="46" fill="#84520a"/>
+<circle cx="50" cy="48" r="45" fill="url(#gold)" stroke="#734506" stroke-width="2"/>
+<circle cx="50" cy="48" r="39" fill="url(#centre)" stroke="#fff5b0" stroke-width="2"/>
+<path d="M50 6v4" fill="none" stroke="#ae7010" stroke-width="1.8" transform="rotate(0 50 48)"/>
+<path d="M50 6v4" fill="none" stroke="#ae7010" stroke-width="1.8" transform="rotate(11.25 50 48)"/>
+<path d="M50 6v4" fill="none" stroke="#ae7010" stroke-width="1.8" transform="rotate(22.5 50 48)"/>
+<path d="M50 6v4" fill="none" stroke="#ae7010" stroke-width="1.8" transform="rotate(33.75 50 48)"/>
+<path d="M50 6v4" fill="none" stroke="#ae7010" stroke-width="1.8" transform="rotate(45 50 48)"/>
+<path d="M50 6v4" fill="none" stroke="#ae7010" stroke-width="1.8" transform="rotate(56.25 50 48)"/>
+<path d="M50 6v4" fill="none" stroke="#ae7010" stroke-width="1.8" transform="rotate(67.5 50 48)"/>
+<path d="M50 6v4" fill="none" stroke="#ae7010" stroke-width="1.8" transform="rotate(78.75 50 48)"/>
+<path d="M50 6v4" fill="none" stroke="#ae7010" stroke-width="1.8" transform="rotate(90 50 48)"/>
+<path d="M50 6v4" fill="none" stroke="#ae7010" stroke-width="1.8" transform="rotate(101.25 50 48)"/>
+<path d="M50 6v4" fill="none" stroke="#ae7010" stroke-width="1.8" transform="rotate(112.5 50 48)"/>
+<path d="M50 6v4" fill="none" stroke="#ae7010" stroke-width="1.8" transform="rotate(123.75 50 48)"/>
+<path d="M50 6v4" fill="none" stroke="#ae7010" stroke-width="1.8" transform="rotate(135 50 48)"/>
+<path d="M50 6v4" fill="none" stroke="#ae7010" stroke-width="1.8" transform="rotate(146.25 50 48)"/>
+<path d="M50 6v4" fill="none" stroke="#ae7010" stroke-width="1.8" transform="rotate(157.5 50 48)"/>
+<path d="M50 6v4" fill="none" stroke="#ae7010" stroke-width="1.8" transform="rotate(168.75 50 48)"/>
+<path d="M50 6v4" fill="none" stroke="#ae7010" stroke-width="1.8" transform="rotate(180 50 48)"/>
+<path d="M50 6v4" fill="none" stroke="#ae7010" stroke-width="1.8" transform="rotate(191.25 50 48)"/>
+<path d="M50 6v4" fill="none" stroke="#ae7010" stroke-width="1.8" transform="rotate(202.5 50 48)"/>
+<path d="M50 6v4" fill="none" stroke="#ae7010" stroke-width="1.8" transform="rotate(213.75 50 48)"/>
+<path d="M50 6v4" fill="none" stroke="#ae7010" stroke-width="1.8" transform="rotate(225 50 48)"/>
+<path d="M50 6v4" fill="none" stroke="#ae7010" stroke-width="1.8" transform="rotate(236.25 50 48)"/>
+<path d="M50 6v4" fill="none" stroke="#ae7010" stroke-width="1.8" transform="rotate(247.5 50 48)"/>
+<path d="M50 6v4" fill="none" stroke="#ae7010" stroke-width="1.8" transform="rotate(258.75 50 48)"/>
+<path d="M50 6v4" fill="none" stroke="#ae7010" stroke-width="1.8" transform="rotate(270 50 48)"/>
+<path d="M50 6v4" fill="none" stroke="#ae7010" stroke-width="1.8" transform="rotate(281.25 50 48)"/>
+<path d="M50 6v4" fill="none" stroke="#ae7010" stroke-width="1.8" transform="rotate(292.5 50 48)"/>
+<path d="M50 6v4" fill="none" stroke="#ae7010" stroke-width="1.8" transform="rotate(303.75 50 48)"/>
+<path d="M50 6v4" fill="none" stroke="#ae7010" stroke-width="1.8" transform="rotate(315 50 48)"/>
+<path d="M50 6v4" fill="none" stroke="#ae7010" stroke-width="1.8" transform="rotate(326.25 50 48)"/>
+<path d="M50 6v4" fill="none" stroke="#ae7010" stroke-width="1.8" transform="rotate(337.5 50 48)"/>
+<path d="M50 6v4" fill="none" stroke="#ae7010" stroke-width="1.8" transform="rotate(348.75 50 48)"/>
+<g stroke="#8d5d13" stroke-width="1.8" stroke-linejoin="round">
+<path d="M31 30Q18 28 18 47L15 60 22 58 20 69 28 66 30 73 38 61 36 38Z" fill="#ba841e"/>
+<path d="M69 30Q82 28 82 47L85 60 78 58 80 69 72 66 70 73 62 61 64 38Z" fill="#ba841e"/>
+<path d="M28 37 26 29 34 31 36 24 43 28 49 20 54 27 61 24 65 31 73 30 70 38Q75 48 69 60L73 65 65 65 65 72 57 69 50 75 43 70 35 73 35 66 27 65 31 59Q25 47 28 37Z" fill="url(#face)"/>
+<path d="M33 36Q39 29 44 35M56 35Q62 29 68 36" fill="none" stroke="#fff0aa" stroke-width="4" stroke-linecap="round"/>
+<ellipse cx="39" cy="44" rx="5.7" ry="6.3" fill="#4f320e"/>
+<ellipse cx="61" cy="44" rx="5.7" ry="6.3" fill="#4f320e"/>
+<circle cx="37.5" cy="42.5" r="1.9" fill="#fff8ce" stroke="none"/>
+<circle cx="59.5" cy="42.5" r="1.9" fill="#fff8ce" stroke="none"/>
+<path d="M50 49Q38 47 33 55L30 60 37 60 35 65 43 64 50 69 57 64 65 65 63 60 70 60 67 55Q62 47 50 49Z" fill="#fff0ae"/>
+<path d="M45 60Q50 72 55 60" fill="#ce8e23"/>
+<path d="M44 50Q50 47 56 50L54 54Q50 57 46 54Z" fill="#51310a"/>
+<path d="M50 55V60M50 59Q44 63 40 59M50 59Q56 63 60 59" fill="none" stroke="#6b4510" stroke-linecap="round"/>
+</g>
+<text x="50" y="84" fill="#75480c" font-family="Arial,sans-serif" font-size="8" font-weight="900" letter-spacing="2" text-anchor="middle">LOKI</text>
+<path d="M22 16 24 21 29 23 24 25 22 30 20 25 15 23 20 21Z" fill="#fff8d3"/>
+</svg>
