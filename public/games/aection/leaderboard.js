@@ -10,7 +10,8 @@ async function rpc(name, body) {
     headers: {
       "Content-Type": "application/json",
       apikey: LEADERBOARD.key,
-      Authorization: "Bearer " + LEADERBOARD.key
+      // Alte "anon"-Schlüssel (JWT) brauchen zusätzlich Authorization. Neue "sb_publishable_"-Schlüssel nicht.
+      ...(LEADERBOARD.key.startsWith("sb_") ? {} : { Authorization: "Bearer " + LEADERBOARD.key })
     },
     body: JSON.stringify(body)
   });

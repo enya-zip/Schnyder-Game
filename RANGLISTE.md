@@ -12,8 +12,8 @@ Andere Spieler sehen nur **Platz, Name und Punkte**. E-Mail-Adressen sind nur im
 2. Den ganzen Inhalt von [`supabase/rangliste.sql`](supabase/rangliste.sql) einfügen und auf **Run** klicken.
 
 ## 3. Spiel verbinden
-1. In Supabase **Project Settings → API** öffnen.
-2. **Project URL** und den Schlüssel **anon public** kopieren.
+1. Supabase-Dashboard öffnen.
+2. Die Projekt-Adresse (unter **Connect**) und den **Publishable key** (beginnt mit `sb_publishable_`, unter **Settings → API Keys**) kopieren.
 3. Beide in [`public/games/aection/leaderboard-config.js`](public/games/aection/leaderboard-config.js) eintragen:
 
 ```js
@@ -23,7 +23,7 @@ export const LEADERBOARD = Object.freeze({
 });
 ```
 
-Der `anon public`-Schlüssel darf öffentlich im Spiel stehen. Den Schlüssel **service_role** niemals eintragen.
+Der Publishable key darf öffentlich im Spiel stehen. Den **Secret key** (`sb_secret_…`) niemals eintragen.
 
 ## Einträge ansehen
 Supabase → **Table Editor** → `aection_scores`. Dort sind alle Einträge mit E-Mail-Adressen sichtbar und lassen sich löschen
