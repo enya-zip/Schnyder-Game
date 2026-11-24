@@ -26,7 +26,7 @@ export const LEADERBOARD = Object.freeze({
 Der Publishable key darf öffentlich im Spiel stehen. Den **Secret key** (`sb_secret_…`) niemals eintragen.
 
 ## Einträge ansehen
-Supabase → **Table Editor** → `schnyder_game_scores` (Übersicht: `schnyder_game_rangliste`). Dort sind alle Einträge mit E-Mail-Adressen sichtbar und lassen sich löschen
+Supabase → **Table Editor** → `schnyder_game_rangliste` (Übersicht mit Platz, Name, E-Mail, Punkten) oder `schnyder_game_alle_spiele` (jedes einzelne Spiel). Dort sind alle Einträge mit E-Mail-Adressen sichtbar und lassen sich löschen
 (z. B. bei Auskunfts- oder Löschanfragen nach Datenschutzgesetz).
 
 ## Gut zu wissen
